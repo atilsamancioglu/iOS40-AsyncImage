@@ -11,6 +11,7 @@
 		FC85C45926CBD91400C326B6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC85C45826CBD91400C326B6 /* ContentView.swift */; };
 		FC85C45B26CBD91500C326B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC85C45A26CBD91500C326B6 /* Assets.xcassets */; };
 		FC85C45E26CBD91500C326B6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC85C45D26CBD91500C326B6 /* Preview Assets.xcassets */; };
+		FC85C46526CBD93A00C326B6 /* Superhero.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC85C46426CBD93A00C326B6 /* Superhero.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		FC85C45826CBD91400C326B6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		FC85C45A26CBD91500C326B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FC85C45D26CBD91500C326B6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FC85C46426CBD93A00C326B6 /* Superhero.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Superhero.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +54,7 @@
 			isa = PBXGroup;
 			children = (
 				FC85C45626CBD91400C326B6 /* ThreadingProjectApp.swift */,
+				FC85C46426CBD93A00C326B6 /* Superhero.swift */,
 				FC85C45826CBD91400C326B6 /* ContentView.swift */,
 				FC85C45A26CBD91500C326B6 /* Assets.xcassets */,
 				FC85C45C26CBD91500C326B6 /* Preview Content */,
@@ -139,6 +142,7 @@
 			files = (
 				FC85C45926CBD91400C326B6 /* ContentView.swift in Sources */,
 				FC85C45726CBD91400C326B6 /* ThreadingProjectApp.swift in Sources */,
+				FC85C46526CBD93A00C326B6 /* Superhero.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,7 +281,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -307,7 +311,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
